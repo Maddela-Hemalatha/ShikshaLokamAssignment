@@ -25,7 +25,7 @@ const printShortestSubstrings = (s, x) => {
       const shortestSubstrings = result.filter(str => str.length == shortestLen);
       console.log(`x: ${x} Answer: ${shortestSubstrings.join(' ')}`);
   }
-}
+};
 
 printShortestSubstrings("abccdbacca", 3);
 printShortestSubstrings("abccdbacca", 4);
